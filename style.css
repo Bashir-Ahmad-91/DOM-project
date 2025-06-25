@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#menue ul {
+    text-align: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#menue li {
+    width: 100px;
+    height: 200px;
+    border-radius: 60px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px #ddd;
+    display: inline-block;
+}
+
+.headline {
+    font-size: 30px;
+    color: dimgray;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.red {
+  background-color: #ED3500;  
+}
+
+.green {
+    background-color: #06923E;
+}
+.blue {
+    background-color: #3674B5;
+}
+.perple {
+    background-color: #687FE5;
+}
+
+
